@@ -1,49 +1,102 @@
-<h1 align="center"><a href="https://graphical-auth-client.vercel.app/">Graphical Password Authentication</a></h1>
 
-<div align="center">
-  <img src="https://img.shields.io/github/license/prathamesh-a/graphical-password-authentication" />
-  <img src="https://img.shields.io/badge/Stack-MERN-blue"/>
-  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen"/>
-  <img src="https://img.shields.io/github/stars/prathamesh-a/graphical-password-authentication?style=social"/>
-</div> <br>
+# Graphical Password Authentication
+
+Graphical Password Authentication is a project developed by **Aaryan Singh Rawat** that adds an additional layer of security to traditional alphanumeric passwords by incorporating image-based authentication.
+
+Users can create a unique graphical password by selecting images from a predefined set. This image password, when combined with a regular alphanumeric password, significantly enhances login security. The system is ideal for platforms where secure authentication is crucial—such as online banking, e-commerce, and social media.
+
+This project is built using the **MERN stack**:
+- **MongoDB** – for database management
+- **Express.js** – for backend API routing
+- **React.js** – for the frontend interface
+- **Node.js** – as the server environment
+
+---
+
+## 📸 Screenshots
+
+![image](https://github.com/user-attachments/assets/6998bfc5-9a79-4085-aa42-4d20561ef074)
+![image](https://github.com/user-attachments/assets/30be55ec-1f62-47ef-9ec3-e40915b0956d)
+![image](https://github.com/user-attachments/assets/595fd9ff-7f7d-4e70-9693-d2a59655b5fe)
+![image](https://github.com/user-attachments/assets/5d451b73-a64f-40e9-b2a5-77851885b66a)
+![image](https://github.com/user-attachments/assets/71904ef6-3855-46ea-8584-584004852ec7)
+![image](https://github.com/user-attachments/assets/e82f7873-731c-44f3-ab0f-5c0ac106b537)
+![image](https://github.com/user-attachments/assets/16010b0a-6efd-4150-93a3-358fc584a3f8)
+![image](https://github.com/user-attachments/assets/f012ba4c-99d9-44d9-8c1f-4fb332ec1371)
+![image](https://github.com/user-attachments/assets/f26750ea-86a7-41e0-977b-a8c3688b7eb8)
+![image](https://github.com/user-attachments/assets/bece1715-d73a-442e-b980-e9c56642a681)
 
 
-Graphical Password Authentication is a GitHub project that provides an additional layer of security to alphanumeric passwords by using images as passwords. With this project, users can create a unique and personalized image password by selecting images from a pre-defined set. This password can then be used in combination with a traditional alphanumeric password for enhanced security. This project is ideal for applications where password protection is critical, such as online banking, e-commerce, or social media. By providing an additional layer of authentication, this project can significantly reduce the risk of unauthorized access to sensitive information. This project uses the MERN stack (MongoDB, Express, React, Node.js) to build a server and a client for the application.
 
-## Screenshots
-To view screenshots go to <a href="https://github.com/prathamesh-a/graphical-password-authentication/blob/main/SCREENSHOTS.md">SCREENSHOTS</a>.
 
-## Installation
-To install this project, follow these steps:<br>
 
-<p>1. Clone the repository to your local machine.</p>
+
+
+
+
+
+---
+
+## 🛠️ Installation
+
+Follow these steps to set up the project on your local machine:
+
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/prathamesh-a/graphical-password-authentication.git
-```
+git clone <your-repo-url>
+````
 
-<p>2. Navigate to the root folder of the project.</p>
+### 2. Navigate to the project directory
 
 ```bash
-git clone https://github.com/prathamesh-a/graphical-password-authentication.git
+cd graphical-password-authentication
 ```
 
-<p>3. <a href="https://github.com/prathamesh-a/graphical-password-authentication/blob/main/server/README.md#installation">Installation of Server</a></p>
-<p>4. <a href="https://github.com/prathamesh-a/graphical-password-authentication/blob/main/client/README.md#installation">Installation of Client</a></p>
+### 3. Install Server Dependencies
 
-## Usage
-To use the application, follow these steps:
+```bash
+cd server
+npm install
+```
 
-1. <a href="https://github.com/prathamesh-a/graphical-password-authentication/tree/main/server#usage">Setup Server</a>
-2. <a href="https://github.com/prathamesh-a/graphical-password-authentication/tree/main/client#usage">Setup Client</a>
+### 4. Install Client Dependencies
 
-## Contributing
-If you would like to contribute to this project, please follow these steps:
+```bash
+cd ../client
+npm install
+```
 
-1. Fork the repository to your own account.
-2. Create a new branch from the **`develop`** branch.
-3. Make your changes and test them thoroughly.
-4. Submit a pull request to the **`develop`** branch.
+---
 
-## License
-This project is licensed under the MIT License. See the <a href="https://github.com/prathamesh-a/graphical-password-authentication/blob/main/LICENSE">LICENSE</a> file for details.
+## 🚀 Usage
+
+To run the application:
+
+### Start the Server
+
+```bash
+cd server
+npm start
+```
+
+### Start the Client
+
+```bash
+cd ../client
+npm start
+```
+
+The application will be available at `http://localhost:3000` by default.
+
+---
+
+## 🤝 Contributing
+
+If you'd like to contribute:
+
+1. Fork this repository
+2. Create a new branch
+3. Make your changes and test them
+4. Submit a pull request for review
+
