@@ -1,17 +1,25 @@
 
-# Graphical Password Authentication
+# Graphical Password Authentication System  
 
-Graphical Password Authentication is a project developed by **Aaryan Singh Rawat** that adds an additional layer of security to traditional alphanumeric passwords by incorporating image-based authentication.
+The **Graphical Password Authentication System**, developed by **Aaryan Singh Rawat**, enhances traditional text-based authentication by introducing an additional layer of image-based security.  
 
-Users can create a unique graphical password by selecting images from a predefined set. This image password, when combined with a regular alphanumeric password, significantly enhances login security. The system is ideal for platforms where secure authentication is crucial—such as online banking, e-commerce, and social media.
+## 🔒 How it Works  
+- Users create a graphical password by selecting images from a predefined set.  
+- During login, this graphical password is combined with a standard alphanumeric password.  
+- The dual-authentication method makes unauthorized access significantly more difficult.  
 
-This project is built using the **MERN stack**:
-- **MongoDB** – for database management
-- **Express.js** – for backend API routing
-- **React.js** – for the frontend interface
-- **Node.js** – as the server environment
+## 💡 Use Cases  
+This system is particularly useful for applications requiring high security, such as:  
+- Online banking  
+- E-commerce platforms  
+- Social media accounts  
 
----
+## 🛠 Tech Stack (MERN)  
+- **MongoDB** – Database management  
+- **Express.js** – Backend API routing  
+- **React.js** – Frontend interface  
+- **Node.js** – Server environment  
+
 
 ## 📸 Screenshots
 
